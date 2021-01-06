@@ -28,13 +28,13 @@ By default - "favorite", set when creating a playlist. May be changed.
   * **main** - make main the folder, which name specified as folder name.
   * *Example* - pl folder create hiphop (create folder named hiphop)
   * *Example* - pl folder rename hiphop jazz (rename hiphop folder to jazz)
-* **pl ["track"] <action> ...** - Manage your tracks in folders.
- * Actions with tracks:
- * **remove** - **[indices] [folder name]**
+  
+* **pl ["track"] < action >** - Manage your tracks in folders. Actions with tracks:
+ * **remove [indices] [folder name]**
     * **Removes tracks by indices or first track from folder with name, specified as folder name or main folder.**
- * **move** - **[indices] <position> [folder name]**
+ * **move [indices] <position> [folder name]**
     * **Move tracks by indices of first track to specified position in folder with name, specified as folder name or main folder.**
- * **copy** - **[indices] <position> [folder-from] <folder-to>**
+ * **copy [indices] <position> [folder-from] <folder-to>**
     * **Copy tracks by indices of first track from folder with name, specified as folder name or main folder to specified position in folder specified as folder-to.**
     * *Example* - pl track copy 2 5-8 1 favorite special (move tracks with positions 2,5,6,7,8 from folder favorite to folder special and position 1)
 * **pl ["access"] <"give" or "take"> <user ID or "all">** - Premium feature. The ability to allow the user to play your playlist, or to take away this right from him. Also you can take access from all users, using "all" parameter. *Example* - pl access give 123456789012141618
@@ -70,8 +70,9 @@ By default - "favorite", set when creating a playlist. May be changed.
   * **main** - сделать главной папку с именем, указанным как название папки.
   * *Пример* - pl folder create хипхоп (создать папку "хипхоп")
   * *Пример* - pl folder rename хипхоп джаз (переименовать папку "хипхоп" в "джаз")
- * **pl ["track"] <action> ...** - Manage your tracks in folders.
-  * Actions with tracks:
+  
+ * **pl ["track"] <действие> ...** - Управление треками в плейлисте.
+  * Действия с треками:
   * **remove** - **[индексы] [папка]**
     * **Удалить треки по индексам или первый трек из папки.**
   * **move** - **[индексы] <position> [папка]**
