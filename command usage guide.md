@@ -4,9 +4,9 @@ Command usage guide.
 **Prefix** - short phrase, which must be in the start of the message to gives Ruka understand, that you are referring to her and trying to execute the command, instead of just sending message.
 Instead of prefix Ruka's mention can be used, if you forgot the prefix. Further, "r!" prefix will be used as prefix, because its prefix by default.
 
-Command "r!command" displays information about command, includes it's usage.
+Command "r!command" displays information about command, includes its usage.
 In the field "Usage" can be brackets and quotes, the purpose of which will be described below.
-* <> - if parameter has on such brackets, then command will not work without specify it's (you mustn't write the brackets)
+* <> - if parameter has on such brackets, then command will not work without specify it (you mustn't write the brackets)
     * *Example:* command <command name> - Command name must be specified, for example: **r!command install**. Otherwise, the Ruka will notify you of the impossibility to execute the command.
 * [] - if parameter has on such brackets, then its use is optional and the command will work differently with and without it (you mustn't write the brackets)
     * *Example:* prefix [prefix] - You can specify a prefix, then it will be set as new, for example **r!prefix !**. If you do not specify it, the Ruka will send you the current prefix.
