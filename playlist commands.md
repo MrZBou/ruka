@@ -30,8 +30,8 @@ By default - "favorite", set when creating a playlist. May be changed.
   * *Example* - pl folder rename hiphop jazz (rename hiphop folder to jazz)
   
 * **pl ["track"] < action >** - Manage your tracks in folders. Actions with tracks:
- * **remove [indices] [folder name]**
-    * **Removes tracks by indices or first track from folder with name, specified as folder name or main folder.**
+ * **delete [indices] [folder name]**
+    * **Deletes tracks by indices or first track from folder with name, specified as folder name or main folder.**
  * **move [indices] <position> [folder name]**
     * **Move tracks by indices of first track to specified position in folder with name, specified as folder name or main folder.**
  * **copy [indices] <position> [folder-from] <folder-to>**
@@ -72,7 +72,7 @@ By default - "favorite", set when creating a playlist. May be changed.
   * *Пример* - pl folder rename хипхоп джаз (переименовать папку "хипхоп" в "джаз")
   
  * **pl ["track"] <действие> ...** - Управление треками в плейлисте. Действия с треками:
-  * **remove [индексы] [папка]**
+  * **delete [индексы] [папка]**
     * **Удалить треки по индексам или первый трек из папки.**
   * **move [индексы] <position> [папка]**
     * **Переместить треки по индексам или первым на указанную позицию в папке.**
