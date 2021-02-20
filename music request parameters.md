@@ -20,6 +20,8 @@ Music To Be Murdered By[[pi=2]] - Add 2-st video (Unaccommodating) from Eminem's
 **pi** *(playlist index)* - Add only the video with the specified position in the playlist, starting with the first video in the playlist (youtube).
 Can be specified directly in the link by adding at the end '&index=(position)'.
 
+**type** *(content type)* - Type of content which you want to find (YouTube). Helpful when for your request Ruka finds not that result that you want (for example: video instead of playlist). May be: **playlist**, **channel**, **video** и **shelf**.
+
 # RU
 
 ### Описание:
@@ -41,3 +43,5 @@ Music To Be Murdered By[[pi=2]] - Добавить 2-ое видео (Unaccommod
 
 **pi** *(playlist index)* - Добавить только видео с указанной позицией в ютуб-плейлисте.
 Может быть указано прямо в ссылке, необходимо добавить в конец '&index=(позициия)'.
+
+**type** *(content type)* - Тип контента, который вы хотите получить по запросу (YouTube). Полезен в том случае, если по вашему запросу находится не то, что вы хотите (например видео вместо плейлиста). Возможные значения: **playlist**, **channel**, **video** и **shelf**.
