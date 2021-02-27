@@ -32,10 +32,10 @@ By default - "favorite", set when creating a playlist. May be changed.
 * **pl ["track"] < action >** - Manage your tracks in folders. Actions with tracks:
  * **delete [indices] [folder name]**
     * **Deletes tracks by indices or first track from folder with name, specified as folder name or main folder.**
- * **move [indices] <position> [folder name]**
-    * **Move tracks by indices of first track to specified position in folder with name, specified as folder name or main folder.**
- * **copy [indices] <position> [folder-from] <folder-to>**
-    * **Copy tracks by indices of first track from folder with name, specified as folder name or main folder to specified position in folder specified as folder-to.**
+ * __move [indices] < position > [folder name]__
+    * __Move tracks by indices of first track to specified position in folder with name, specified as folder name or main folder.__
+ * __copy [indices] < position > [folder-from] < folder-to >__
+    * __Copy tracks by indices of first track from folder with name, specified as folder name or main folder to specified position in folder specified as folder-to.__
     * *Example* - pl track copy 2 5-8 1 favorite special (move tracks with positions 2,5,6,7,8 from folder favorite to folder special and position 1)
 * **pl ["access"] <"give" or "take"> <user ID or "all">** - Premium feature. The ability to allow the user to play your playlist, or to take away this right from him. Also you can take access from all users, using "all" parameter. *Example* - pl access give 123456789012141618
 
