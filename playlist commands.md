@@ -14,9 +14,11 @@ By default - "favorite", set when creating a playlist. May be changed.
 * **pl <"add"> [indeces from queue] [folder]** - Add queued tracks to your playlist.
 * **pl <"delete"> [indices from queue] [folder]** - Remove tracks from the playlist.
 * **pl <"play"> [indices from playlist] [folder] [user ID]** - Add tracks from the playlist to the queue.
+* **pl <"save"> [@member]** - Add member's playlist to the saved.
 
 ## In direct messages (DM)
 * **pl** - Your playlist. Displays folders with the number of tracks in them, as well as playlist privacy and the main folder name.
+* **pl ["saved"] ["select" or "delete"] < number > - Manage saved playlists.
 * **pl ["delete"]** - Delete your playlist. You need to write the command again within 10 seconds. 
 * **pl ["private"]** - Make your playlist private if it is public and vice versa.
 * **pl ["folder"] ["create" or "delete" or "show" or "rename" or "clear" or "main"] [folder name] [new name of folder]** - Manage your playlist's folders.
@@ -32,7 +34,7 @@ By default - "favorite", set when creating a playlist. May be changed.
 * **pl ["track"] < action >** - Manage your tracks in folders. Actions with tracks:
  * **delete [indices] [folder name]**
     * **Deletes tracks by indices or first track from folder with name, specified as folder name or main folder.**
- * __move [indices] < position > [folder name]__
+ * __move [indices] < position > [ folder name ] [ folder to ]
     * __Move tracks by indices of first track to specified position in folder with name, specified as folder name or main folder.__
  * __copy [indices] < position > [folder-from] < folder-to >__
     * __Copy tracks by indices of first track from folder with name, specified as folder name or main folder to specified position in folder specified as folder-to.__
@@ -56,9 +58,11 @@ By default - "favorite", set when creating a playlist. May be changed.
 * **pl <"add"> [индексы из очереди] [папка]** - Добавить треки в ваш плейлист.
 * **pl <"delete"> [индексы из очереди] [папка]** - Удалить треки из вашего плейлиста.
 * **pl <"play"> [индексы из очереди] [папка] [ИД пользователя]** - Добавить треки из вашего плейлиста в очередь.
+* **pl <"save"> [@участник]** - Добавить плейлист пользователя в сохраненные.
 
 ## Команды в личных сообщениях (DM)
 * **pl** - Ваш плейлист. Отображаются папки плейлиста, количество треков в них, а также приватность плейлиста и название главной папки.
+* **pl ["saved"] ["select" или "delete"] <номер> - Управление сохраненными плейлистами.
 * **pl ["delete"]** - Удалить ваш плейлист. Необходимо написать команду ещё раз в течение 10 секунд.
 * **pl ["private"]** - Сделать ваш плейлист приватным, если он является публичным и наоборот.
 * **pl ["folder"] ["create" или "delete" или "show" или "rename" или "clear" или "main"] [название папки] [новое имя папки]** - Работа с папками плейлиста. 
@@ -74,7 +78,7 @@ By default - "favorite", set when creating a playlist. May be changed.
  * **pl ["track"] <действие> ...** - Управление треками в плейлисте. Действия с треками:
   * **delete [индексы] [папка]**
     * **Удалить треки по индексам или первый трек из папки.**
-  * **move [индексы] <position> [папка]**
+  * **move [индексы] <position> [папка] [папка для перемещения]**
     * **Переместить треки по индексам или первым на указанную позицию в папке.**
   * **copy [индексы] <position> [папка] <папка для копирования>**
     * **Копировать треки по индексам из папки на позицию в папке для копирования.**
